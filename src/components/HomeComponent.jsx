@@ -6,7 +6,7 @@ const HomeComponent = () => {
 
     return (
        <DashboardContentComponent>
-        HOME
+        <h1>HOME</h1>
        </DashboardContentComponent>
     );
 }

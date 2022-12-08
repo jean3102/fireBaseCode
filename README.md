@@ -1,0 +1,1 @@
+firebasecode is an app to login and register using google firebase service just run command "npm install" then "npm run dev"
