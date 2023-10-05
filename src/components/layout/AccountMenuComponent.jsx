@@ -9,7 +9,6 @@ import IconButton from "@mui/material/IconButton";
 import Tooltip from "@mui/material/Tooltip";
 
 import Logout from "@mui/icons-material/Logout";
-import HttpsIcon from "@mui/icons-material/Https";
 import { useNavigate } from "react-router-dom";
 import { getAuth, signOut } from "firebase/auth";
 import { AuthContext } from "../context/Auth";

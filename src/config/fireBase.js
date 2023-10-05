@@ -1,19 +1,20 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
+import { envAccess } from './envAccess';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyC6BTRU6UZ0Fm2AhoNNgPa_pOM6u3QiNVs",
-  authDomain: "loginreact-76eb3.firebaseapp.com",
-  projectId: "loginreact-76eb3",
-  storageBucket: "loginreact-76eb3.appspot.com",
-  messagingSenderId: "867090384102",
-  appId: "1:867090384102:web:799a7cc89fbb3adc53a727",
-  measurementId: "G-TLGJKRYMJD",
+	apiKey: envAccess.API_KEY,
+	authDomain: envAccess.AUTH_DOMAIN,
+	projectId: envAccess.PROJECT_ID,
+	storageBucket: envAccess.STORAGE_BUCKET,
+	messagingSenderId: envAccess.messagingSenderId,
+	appId: envAccess.APP_ID,
+	measurementId: envAccess.MEASUREMENT_ID,
 };
 
 // Initialize Firebase
