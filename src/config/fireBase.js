@@ -12,7 +12,7 @@ const firebaseConfig = {
 	authDomain: envAccess.AUTH_DOMAIN,
 	projectId: envAccess.PROJECT_ID,
 	storageBucket: envAccess.STORAGE_BUCKET,
-	messagingSenderId: envAccess.messagingSenderId,
+	messagingSenderId: envAccess.MESSAGING_SENDER_ID,
 	appId: envAccess.APP_ID,
 	measurementId: envAccess.MEASUREMENT_ID,
 };
